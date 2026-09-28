@@ -1,0 +1,13 @@
+[Unit]
+Description=StudySync Spring Boot App
+After=network.target
+
+[Service]
+User=geo
+WorkingDirectory=/home/geo/proiect-inginerie-software-cfc/studysync-backend
+ExecStart=/home/geo/proiect-inginerie-software-cfc/studysync-backend/mvnw spring-boot:run
+SuccessExitStatus=143
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

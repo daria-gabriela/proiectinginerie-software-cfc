@@ -1,0 +1,38 @@
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# Build outputs
+target/
+dist/
+node_modules/
+
+# Environment
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Uploads (keep structure, ignore content)
+studysync-backend/uploads/*
+!studysync-backend/uploads/.gitkeep
+# Unrelated projects
+PharmaProject/
+agents.md
+how_to_run.md
+ml-server/extracted_images/
+.agent/
+# deployment/

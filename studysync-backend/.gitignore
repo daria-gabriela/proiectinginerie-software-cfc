@@ -1,0 +1,18 @@
+# Dependencies
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Environment
+.env
+*.env.local
+
+# Logs
+*.log
+
+# OS
+.DS_Store
